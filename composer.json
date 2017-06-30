@@ -1,0 +1,19 @@
+{
+  "name": "lzh/browser-detector",
+  "description": "根据UA判断浏览器类型和版本，操作系统，设备型号 ",
+  "keywords": ["browser", "os", "operating system", "language", "detection","浏览器","操作系统","设备型号"],
+  "authors": [
+    {
+      "name": "lzh",
+      "email": "lzh@qq.com"
+    }
+  ],
+  "require": {
+    "php": "^5.3.3 || ^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "lzh\\BrowserDetector\\": "src"
+    }
+  }
+}
